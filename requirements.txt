@@ -9,3 +9,4 @@ python-dotenv
 gunicorn
 whitenoise
 django-cloudinary-storage
+django-on-vercel

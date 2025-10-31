@@ -11,12 +11,14 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 import os
+import django_on_vercel
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(os.path.join(__file__, os.pardir))))
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static_files')
 
-
+# For database & static files
+django_on_vercel.settings(locals())
 
 # Application definition
 
