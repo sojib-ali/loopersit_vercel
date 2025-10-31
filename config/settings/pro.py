@@ -49,8 +49,8 @@ STORAGES = {
     }
 }
 
-MEDIA_LOCATION = 'media'
-MEDIA_URL = f'https://res.cloudinary.com/dui0mqbio/image/upload/v1/{MEDIA_LOCATION}/'
+# MEDIA_LOCATION = 'media'
+# MEDIA_URL = f'https://res.cloudinary.com/dui0mqbio/image/upload/v1/{MEDIA_LOCATION}/'
 
 EMAIL_HOST_USER = 'szahan4@gmail.com' 
 
