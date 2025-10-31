@@ -18,7 +18,7 @@ DEBUG = False
 # )
 
 
-ALLOWED_HOSTS = ['loopersit-final.onrender.com', 'loopersit.com', 'www.loopersit.com']
+ALLOWED_HOSTS = ['loopersit.com', 'www.loopersit.com', '.vercel.app', '127.0.0.1']
 
 INSTALLED_APPS += ["cloudinary_storage", "cloudinary"]
 
